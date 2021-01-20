@@ -72,10 +72,12 @@
 
 
 
-# 구현:
+# 구현: 
 
-분석/설계 단계에서 도출된 헥사고날 아키텍처에 따라, 각 BC별로 대변되는 마이크로 서비스들을 스프링부트로 구현하였다. 
 
+--개인 AZURE 에 배포완료 확인 __ (5.6 Gateway, Deploy) 
+
+![image] (https://user-images.githubusercontent.com/75401873/105173898-0c3bc400-5b65-11eb-9613-0d0fce1cfe08.png)
 
 1,3. 주문->결제->배송->주문 캡쳐
 
@@ -113,22 +115,6 @@
 3. 결제서비스 장애 시 주문 불가
 
 ![image](https://user-images.githubusercontent.com/75401920/105002912-52b1f580-5a75-11eb-8ce0-b661fbbcc1d3.png)
-
-
-
-   
-
-5.6 Gateway, Deploy
-
-product 상품 등록 
- - LoadBalanced로 노출된 퍼블릭IP로 상품등록 API 호출
-
-![image](https://user-images.githubusercontent.com/75401920/105001534-42008000-5a73-11eb-8ab7-c955745e7703.png)
-
-
-애져에 배포되어 있는 상황 조회 kubectl get all
-
-![image](https://user-images.githubusercontent.com/75401920/105000728-06b18180-5a72-11eb-8609-e527c48f7060.png)
 
 
 
