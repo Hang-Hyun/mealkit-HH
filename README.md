@@ -77,7 +77,7 @@
 
 --개인 AZURE 에 배포완료 확인 __ (5.6 Gateway, Deploy) 
 
-![image] (https://user-images.githubusercontent.com/75401873/105173898-0c3bc400-5b65-11eb-9613-0d0fce1cfe08.png)
+![image](https://user-images.githubusercontent.com/75401873/105173898-0c3bc400-5b65-11eb-9613-0d0fce1cfe08.png)
 
 1,3. 주문->결제->배송->주문 캡쳐
 
