@@ -71,25 +71,6 @@
 ![image](https://user-images.githubusercontent.com/75401873/105170529-66865600-5b60-11eb-9f93-817a00e3b94a.png)
 
 
-### 1차 완성본에 대한 기능적/비기능적 요구사항을 커버하는지 검증
-
-![image](https://user-images.githubusercontent.com/75401873/105171349-75213d00-5b61-11eb-8b69-910dacddd8a3.png)
-
-    - 고객이 상품을 선택하여 주문한다 (ok)
-    - 주문하면 결제가 동시에 이뤄진다. (ok)
-    - 결제가 이뤄지면 배송이 요청된다. (ok)
-    - 결제가 이뤄지면 상품재고가 감소한다. (ok)
-    - 배송이 요청되고 배송이 시작되면 주문상태가 배송시작으로 변경된다. (ok)
-
-![image](https://user-images.githubusercontent.com/75401920/104998646-ecc26f80-5a6e-11eb-88a2-6ff3c1eaf7f6.png)
-
-    - 고객이 주문을 취소할 수 있다 (ok)
-    - 주문이 취소되면 결제가 취소된다 (ok)
-    - 결제가 취소되면 배송이 취소된다. (ok)
-    - 배송이 취소되면 주문상태가 배송취소로 변경된다. (ok)
-
-
-
 
 # 구현:
 
@@ -99,11 +80,9 @@
 1,3. 주문->결제->배송->주문 캡쳐
 
 
-
-
  - 주문 등록
 
-![image](https://user-images.githubusercontent.com/75401920/105002099-1b8f1480-5a74-11eb-957f-26f060d0bc5f.png)
+![image](https://user-images.githubusercontent.com/75401873/105171349-75213d00-5b61-11eb-8b69-910dacddd8a3.png)
 
  - 주문 등록 후 결제 내역 조회
 
