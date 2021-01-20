@@ -65,7 +65,11 @@
 ### 완성된 1차 모형
 ![image](https://user-images.githubusercontent.com/75401920/104998076-f9929380-5a6d-11eb-8ac9-1ba95cea971f.png)
 
-    - View Model 추가
+
+#### 개인과제 추가모형 
+
+![image](https://user-images.githubusercontent.com/75401873/105170529-66865600-5b60-11eb-9f93-817a00e3b94a.png)
+
 
 ### 1차 완성본에 대한 기능적/비기능적 요구사항을 커버하는지 검증
 
