@@ -105,15 +105,11 @@
 
 ![image](https://user-images.githubusercontent.com/75401920/105002099-1b8f1480-5a74-11eb-957f-26f060d0bc5f.png)
 
- - 주문 등록 후 주문내역 조회 시 배송상태 변경됨 
-
-![image](https://user-images.githubusercontent.com/75401920/105001784-a3c0ea00-5a73-11eb-9c83-1d504502bca3.png)
-
  - 주문 등록 후 결제 내역 조회
 
-![image](https://user-images.githubusercontent.com/75401920/105001881-c81cc680-5a73-11eb-8b94-c25d03309a84.png)
+![image](https://user-images.githubusercontent.com/75401873/105171814-055f8200-5b62-11eb-97c3-2963658f1053.png)
 
- - 재고변경
+ **- ""메세지"" 변경  (개인과제 구현한 부분)** 
 
 ![image](https://user-images.githubusercontent.com/75401920/105002205-3e212d80-5a74-11eb-9d3a-469df1f27d49.png)
 
