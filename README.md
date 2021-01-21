@@ -121,13 +121,13 @@ kubectl autoscale deployment order --cpu-percent=20 --min=1 --max=10
 
 siege -c100 -t30S -v --content-type "application/json" ''http://Order:8080/orders POST {"prodId": 1, "qty":5}'
 
- - AutoScale적용 후 seige를 통해서 부하 테스트 시  order pod 개수가 증가함
+ - AutoScale적용 후 seige를 통해서 부하 테스트 시 payment pod 개수가 증가함
 
 ![image](https://user-images.githubusercontent.com/75401873/105317575-b2d7a180-5c05-11eb-82fc-9718d27abefe.png)
 
 
 
-![image](https://user-images.githubusercontent.com/75401920/105206906-394e9d80-5b8a-11eb-90ea-463a33781b5b.png)
+![image](https://user-images.githubusercontent.com/75401873/105319565-6772c280-5c08-11eb-9279-5020a9adbc5e.png)
 
 
 
