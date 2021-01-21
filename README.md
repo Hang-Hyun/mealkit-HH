@@ -124,15 +124,3 @@
 
 ![image](https://user-images.githubusercontent.com/75401920/105006308-cf46d300-5a79-11eb-96db-77d865c9bfe9.png)
 
-
-9. Readness Proobe
- 
-  - Readiness 적용 전: 소스배포시 500 오류 발생
-  
-![image](https://user-images.githubusercontent.com/75401920/105004548-7d04b280-5a77-11eb-95cb-d5fe19a40557.png)
-
-
-  - 적용 후: 소스배포시 100% 수행됨
-
-![image](https://user-images.githubusercontent.com/75401920/105004912-f0a6bf80-5a77-11eb-88ee-f0bcd8f67f45.png)
-
