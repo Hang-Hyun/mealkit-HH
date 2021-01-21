@@ -24,8 +24,6 @@
      6. Deploy
      7. CB
      8. HPA
-     9. Readiness
-
 
 # 서비스 시나리오
 
