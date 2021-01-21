@@ -72,7 +72,7 @@
 
  **- ""메세지"" 변경  (개인과제 구현한 부분)** 
 
-![image](https://user-images.githubusercontent.com/75401920/105002205-3e212d80-5a74-11eb-9d3a-469df1f27d49.png)
+![image](https://user-images.githubusercontent.com/75401873/105271699-53fd3280-5bdb-11eb-8bbc-81f1d1e4ae0a.png)
 
  - 주문취소
 
