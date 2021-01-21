@@ -90,7 +90,7 @@
 
 
 
-7. Istio 적용 (실패) 
+7. Istio 적용 (실패--> 성공 ) 
 
  - payments 서비스에 Istio 적용
    
@@ -112,7 +112,7 @@
 
 kubectl autoscale deployment order --cpu-percent=20 --min=1 --max=10
 
-siege -c100 -t30S -v --content-type "application/json" 'http://10.0.22.136:8080/orders POST {"prodId": 1, "qty":5}'
+siege -c100 -t30S -v --content-type "application/json" ''http://Order:8080/orders POST {"prodId": 1, "qty":5}'
 
  - AutoScale적용 후 seige를 통해서 부하 테스트 시  order pod 개수가 증가함
 
@@ -121,54 +121,11 @@ siege -c100 -t30S -v --content-type "application/json" 'http://10.0.22.136:8080/
 
 ![image](https://user-images.githubusercontent.com/75401920/105207003-56836c00-5b8a-11eb-804a-72fea60f83b3.png)
 
+9. 폴리그랏 
 
-7. Readiness Probe
-
- - readiness probe 적용전
-
-siege -c1 -t2000S -v --content-type "application/json" 'http://10.0.127.214:8080/orders POST {"prodNm": "1001", "qty":5}'
-
-kubectl set image deploy product=skcc06.azurecr.io/product:v2
-
-![image](https://user-images.githubusercontent.com/75401920/105202941-da872500-5b85-11eb-84d1-04398aecf47d.png)
-
- - readiness probe 적용
-
-![image](https://user-images.githubusercontent.com/75401920/105203175-2a65ec00-5b86-11eb-9253-ea05b1f80336.png)
-
- - 적용 후 테스트 
-
-![image](https://user-images.githubusercontent.com/75401920/105203589-a3fdda00-5b86-11eb-8d81-e07e2dd53d64.png)
-
-![image](https://user-images.githubusercontent.com/75401920/105203774-d8719600-5b86-11eb-8acf-d98d00424c2c.png)
-
-
-
-9. configmap 
-
- - configmap 생성
-
-![image](https://user-images.githubusercontent.com/75401920/105248814-6f0b7a80-5bba-11eb-835c-26bc4bfa3609.png)
-
-
- - configmap 적용
-
-![image](https://user-images.githubusercontent.com/75401920/105248860-8480a480-5bba-11eb-9e09-bfc48fab4ec1.png)
-
- - configmap 적용된 모습
-
-![image](https://user-images.githubusercontent.com/75401920/105249332-5059b380-5bbb-11eb-986d-e86f7143424c.png)
-
-
-10. Liveness probe
-
- - Liveness probe 적용
-
-   실패를 확인하기 위해서 포트를 8081로 임의 변경함
-
-![image](https://user-images.githubusercontent.com/75401920/105214182-05c44100-5b93-11eb-9377-4cd46b7f4964.png)
-
- - 실패로 인해서 restart 수 증가하는 모습 확인 가능
+ 마케팅 서비스 의 pom.xml 에 다른 dB 적용 (xsql) 
  
-![image](https://user-images.githubusercontent.com/75401920/105214090-e3322800-5b92-11eb-9230-3933cb039281.png)
+ ![image](https://user-images.githubusercontent.com/75401873/105284580-1e197780-5bf6-11eb-9aa9-717c80658dd1.png)
+
+
 
