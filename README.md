@@ -139,7 +139,7 @@ siege -c100 -t30S -v --content-type "application/json" ''http://Order:8080/order
  
  ![image](https://user-images.githubusercontent.com/75401873/105284580-1e197780-5bf6-11eb-9aa9-717c80658dd1.png)
 
-10. Liveness probe 
+10. Liveness probe  (셀프힐링) 
 Liveness probe 적용
 
 실패를 확인하기 위해서 포트를 8081로 임의 변경한 yaml 만들고 적용 
