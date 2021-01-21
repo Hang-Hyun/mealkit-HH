@@ -76,7 +76,7 @@
 
  - 주문취소
 
-![image](https://user-images.githubusercontent.com/75401920/105002335-6dd03580-5a74-11eb-860d-66d4062bd18f.png)
+![image](https://user-images.githubusercontent.com/75401873/105272086-033a0980-5bdc-11eb-97c5-583c2ca1c9f6.png)
 
  - 주문취소 시 결제 취소 반영됨
 
