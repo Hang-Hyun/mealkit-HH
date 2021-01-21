@@ -85,19 +85,8 @@
 
 ![image](https://user-images.githubusercontent.com/75401920/105002401-95270280-5a74-11eb-89c9-069db87220e6.png)
 
- - 결제취소시 배송 취소
- 
-![image](https://user-images.githubusercontent.com/75401920/105002466-acfe8680-5a74-11eb-91ba-bc04509a8b10.png)
 
 
-2. 마이페이지 조회
-
-![image](https://user-images.githubusercontent.com/75401920/105002605-e8995080-5a74-11eb-99ad-15cdb20324ad.png)
-
-
-3. 결제서비스 장애 시 주문 불가
-
-![image](https://user-images.githubusercontent.com/75401920/105002912-52b1f580-5a75-11eb-8ce0-b661fbbcc1d3.png)
 
 
 
