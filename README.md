@@ -90,15 +90,15 @@
 
 
 
-7. Istio 적용 캡쳐
+7. Istio 적용 (실패) 
 
  - payments 서비스에 Istio 적용
    
 ![image](https://user-images.githubusercontent.com/75401920/105006822-7f1c4080-5a7a-11eb-9191-db35233773d3.png)
 
- - Istio 적용 후 seige 실행 시 대략 50%정도 확률로 CB가 열려서 처리됨
+ - Istio 적용 후 seige 실행 시 에러만 남 ㅠㅠㅠㅠ 
 
-![image](https://user-images.githubusercontent.com/75401920/105006958-b2f76600-5a7a-11eb-99f3-c8b81a4ec270.png)
+![image](https://user-images.githubusercontent.com/75401873/105277719-4cdc2180-5be7-11eb-9592-93d3f033e848.png)
 
 8. AutoScale
 
