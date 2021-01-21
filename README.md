@@ -139,11 +139,14 @@ siege -c100 -t30S -v --content-type "application/json" ''http://Order:8080/order
  
  ![image](https://user-images.githubusercontent.com/75401873/105284580-1e197780-5bf6-11eb-9aa9-717c80658dd1.png)
 
-10. Liveness probe
+10. Liveness probe 
 Liveness probe 적용
 
 실패를 확인하기 위해서 포트를 8081로 임의 변경한 yaml 만들고 적용 
 
 ![image](https://user-images.githubusercontent.com/75401920/105214182-05c44100-5b93-11eb-9377-4cd46b7f4964.png)
 
+
+실패로 인해서 restart 수 증가하는 모습 확인 가능
+![image](https://user-images.githubusercontent.com/75401873/105321321-a570e600-5c0a-11eb-8ee6-50f52b59b113.png)
 
