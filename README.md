@@ -116,10 +116,9 @@ siege -c100 -t30S -v --content-type "application/json" ''http://Order:8080/order
 
  - AutoScale적용 후 seige를 통해서 부하 테스트 시  order pod 개수가 증가함
 
-![image](https://user-images.githubusercontent.com/75401920/105206906-394e9d80-5b8a-11eb-90ea-463a33781b5b.png)
+![image](https://user-images.githubusercontent.com/75401873/105285270-62f1de00-5bf7-11eb-99d5-2b2bac49fbf2.png)
 
 
-![image](https://user-images.githubusercontent.com/75401920/105207003-56836c00-5b8a-11eb-804a-72fea60f83b3.png)
 
 9. 폴리그랏 
 
