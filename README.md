@@ -74,6 +74,9 @@
 
 ![image](https://user-images.githubusercontent.com/75401873/105271699-53fd3280-5bdb-11eb-8bbc-81f1d1e4ae0a.png)
 
+![image](https://user-images.githubusercontent.com/75401873/105272523-dfc38e80-5bdc-11eb-85c3-a13a50daba5a.png)
+
+
  - 주문취소
 
 ![image](https://user-images.githubusercontent.com/75401873/105272086-033a0980-5bdc-11eb-97c5-583c2ca1c9f6.png)
