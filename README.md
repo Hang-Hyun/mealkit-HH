@@ -100,13 +100,4 @@
 
 ![image](https://user-images.githubusercontent.com/75401873/105277719-4cdc2180-5be7-11eb-9592-93d3f033e848.png)
 
-8. AutoScale
-
- - AutoScale 적용된 모습
-
-![image](https://user-images.githubusercontent.com/75401920/105006642-4714fd80-5a7a-11eb-8424-aa2dede45666.png)
-
- - AutoScale로  order pod 개수가 증가함
-
-![image](https://user-images.githubusercontent.com/75401920/105006308-cf46d300-5a79-11eb-96db-77d865c9bfe9.png)
 
