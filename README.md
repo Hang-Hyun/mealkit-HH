@@ -90,7 +90,7 @@
 
 
 
-7. Istio 적용 (실패--> 성공 ) 
+7. Istio 적용
 
  - payments 서비스에 Istio 적용
    
