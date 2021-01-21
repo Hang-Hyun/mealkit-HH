@@ -127,6 +127,11 @@ siege -c100 -t30S -v --content-type "application/json" ''http://Order:8080/order
 
 
 
+![image](https://user-images.githubusercontent.com/75401920/105207003-56836c00-5b8a-11eb-804a-72fea60f83b3.png)
+
+
+
+
 9. 폴리그랏 
 
  마케팅 서비스 의 pom.xml 에 다른 dB 적용 (xsql) 
