@@ -100,10 +100,6 @@
 
 7. Istio 적용 캡쳐
 
-  - Istio테스트를 위해서 Payment에 sleep 추가
-  
-![image](https://user-images.githubusercontent.com/75401920/105005616-e89b4f80-5a78-11eb-82cb-de53e5881e3f.png)
-
  - payments 서비스에 Istio 적용
    
 ![image](https://user-images.githubusercontent.com/75401920/105006822-7f1c4080-5a7a-11eb-9191-db35233773d3.png)
