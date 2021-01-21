@@ -144,4 +144,6 @@ Liveness probe 적용
 
 실패를 확인하기 위해서 포트를 8081로 임의 변경한 yaml 만들고 적용 
 
+![image](https://user-images.githubusercontent.com/75401920/105214182-05c44100-5b93-11eb-9377-4cd46b7f4964.png)
+
 
