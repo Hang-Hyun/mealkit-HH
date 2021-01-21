@@ -96,6 +96,13 @@
    
 ![image](https://user-images.githubusercontent.com/75401920/105006822-7f1c4080-5a7a-11eb-9191-db35233773d3.png)
 
+- istio Virtual Service 생성
+
+![image](https://user-images.githubusercontent.com/75401920/105209144-d90d2b00-5b8c-11eb-9d32-5a81e348c330.png)
+
+![image](https://user-images.githubusercontent.com/75401920/105208750-656b1e00-5b8c-11eb-872e-dc9c51a327c7.png)
+
+
  - Istio 적용 후 seige 실행 시 에러만 남 ㅠㅠㅠㅠ 
 
 ![image](https://user-images.githubusercontent.com/75401873/105277719-4cdc2180-5be7-11eb-9592-93d3f033e848.png)
